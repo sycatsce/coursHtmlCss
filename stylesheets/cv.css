@@ -1,14 +1,24 @@
 @font-face {
   font-family: "Geo";
-  src: url("GeosansLight.ttf"); }
+  src: url("../fonts/GeosansLight.ttf"); }
 body {
   background-color: white; }
 
-#entete {
-  background-color: #f5f5f5;
-  height: 200px; }
-
 p {
   font-family: "Geo"; }
+
+#entete {
+  background-color: #f5f5f5;
+  padding: 150px;
+  border-radius: 10px;
+  height: 100px; }
+
+#entete-nom {
+  float: right;
+  font-family: sans-serif;
+  color: #8ac4ff;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 2em; }
 
 /*# sourceMappingURL=cv.css.map */

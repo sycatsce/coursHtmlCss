@@ -4,16 +4,34 @@ $couleurTerciaire : #8ac4ff;
 
 @font-face {
     font-family: "Geo";
-    src: url("GeosansLight.ttf"); }
+    src: url("../fonts/GeosansLight.ttf"); }
 
 body{
     background-color: $couleurPrimaire;
 }
 
-#entete{
-    background-color: $couleurSecondaire;
-    height:200px;}
-
 p{
     font-family: "Geo";
+}
+#entete{
+    background-color: $couleurSecondaire;
+    padding: 150px;
+    border-radius: 10px;
+    height:100px;}
+
+#entete-nom{
+    float:right;
+    font-family: sans-serif;
+    color: $couleurTerciaire;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#entete-infos{
+
+}
+
+p{
+
 }
