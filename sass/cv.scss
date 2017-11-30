@@ -1,0 +1,19 @@
+$couleurPrimaire : white;
+$couleurSecondaire : #f5f5f5;
+$couleurTerciaire : #8ac4ff;
+
+@font-face {
+    font-family: "Geo";
+    src: url("GeosansLight.ttf"); }
+
+body{
+    background-color: $couleurPrimaire;
+}
+
+#entete{
+    background-color: $couleurSecondaire;
+    height:200px;}
+
+p{
+    font-family: "Geo";
+}
